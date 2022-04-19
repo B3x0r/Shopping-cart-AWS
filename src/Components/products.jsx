@@ -9,7 +9,7 @@ import {
   Image,
   Input,
 } from "react-bootstrap";
-import axios from "axios";
+//import axios from "axios";
 
 //simulate getting products from DataBase
 const products = [
@@ -36,8 +36,7 @@ const useDataApi = (initialUrl, initialData) => {
     const fetchData = async () => {
       dispatch({ type: "FETCH_INIT" });
       try {
-        const result = await axios(url);
-        //console.log("FETCH FROM URL");
+        const result = { data: { data: products }}; // await axios(url);        //console.log("FETCH FROM URL");
         if (!didCancel) {
           dispatch({ type: "FETCH_SUCCESS", payload: result.data.data });
         }
