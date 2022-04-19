@@ -3,7 +3,7 @@ Here I took my shopping cart app and refactored it to build a static website and
  
 #### Installation:
  
-You would have to get your own AWS account and set up a bucket to put it into.
+You would have to get your own AWS account and set up a bucket to put the contents of the Build folder in you AWS bucket.
  
 #### Usage:
  
