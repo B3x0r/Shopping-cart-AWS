@@ -2,7 +2,7 @@
 Here I took my shopping cart app and refactored it to build a static website and deployed it to AWS S3 buckets. This was a week 20 assignment.
 
 
-<img src= "Shopping Cart.jpg" width='300'/>
+<img src= "Shopping-Cart.jpg" width='300'/>
  
 #### Installation:
  
